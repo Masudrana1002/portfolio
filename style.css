@@ -11,11 +11,14 @@
     padding: 15px 30px;
 }
 /* navbar style start */
-
+header{
+    background-color: #FFF8F3;
+}
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .nav-titel{
     color: #181818;
@@ -34,4 +37,12 @@ nav a{
     text-decoration: none;
     color: #474747;
     font-size: 18px;
+}
+.banner-section{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 500px;
 }
