@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Common calor  */
+.logo{
+    font-size: 45px;
+}
+.orenge-color{
+    color: #FD6E0A;
+    
+}
+.btn{
+    background-color: #FD6E0A;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+/* Nav bar style start */
+header{
+    background-color: #FFF8F3;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    align-items: center;
+
+}
+.manu-bar ul{
+    display: flex;
+    justify-content:space-between ;
+    gap: 50px;
+
+}
+.manu-bar ul>li {
+    list-style: none;
+    
+
+}
+.manu-bar a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+/* banner section Style start */
+.banner-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.banner-section h3{
+    font-size: 45px;
+}
+.banner-section h1{
+    font-size: 85px;
+}
+.banner-section p{
+    font-size: 18px;
+}
